@@ -1,0 +1,14 @@
+{
+  "name": "food-safety-recall-management-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Food safety plans, supplier traceability, HACCP checks, incidents, recalls, corrective actions, and regulatory reporting.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "food-safety-recall-management-suite",
+  "title": "Food Safety Recall Management Suite",
+  "buyer": "Food manufacturers, distributors, grocers, restaurant groups",
+  "description": "Food safety plans, supplier traceability, HACCP checks, incidents, recalls, corrective actions, and regulatory reporting.",
+  "modules": [
+    {
+      "id": "supplier-lots",
+      "table": "supplierLots",
+      "label": "Supplier Lots",
+      "description": "Supplier Lots workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "Lot intake",
+        "COA",
+        "Traceability"
+      ],
+      "prefix": "SL",
+      "seedValues": [
+        "Lot intake",
+        "COA",
+        "Traceability"
+      ]
+    },
+    {
+      "id": "haccp",
+      "table": "haccp",
+      "label": "HACCP Checks",
+      "description": "HACCP Checks workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "Critical limits",
+        "Monitoring",
+        "Deviation"
+      ],
+      "prefix": "HC",
+      "seedValues": [
+        "Critical limits",
+        "Monitoring",
+        "Deviation"
+      ]
+    },
+    {
+      "id": "quality-tests",
+      "table": "qualityTests",
+      "label": "Quality Tests",
+      "description": "Quality Tests workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "Micro testing",
+        "Allergen checks",
+        "Release status"
+      ],
+      "prefix": "QT",
+      "seedValues": [
+        "Micro testing",
+        "Allergen checks",
+        "Release status"
+      ]
+    },
+    {
+      "id": "incidents",
+      "table": "incidents",
+      "label": "Incidents",
+      "description": "Incidents workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "Complaint intake",
+        "Risk rating",
+        "Investigation"
+      ],
+      "prefix": "I",
+      "seedValues": [
+        "Complaint intake",
+        "Risk rating",
+        "Investigation"
+      ]
+    },
+    {
+      "id": "recalls",
+      "table": "recalls",
+      "label": "Recall Workflow",
+      "description": "Recall Workflow workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "Scope",
+        "Notifications",
+        "Effectiveness checks"
+      ],
+      "prefix": "RW",
+      "seedValues": [
+        "Scope",
+        "Notifications",
+        "Effectiveness checks"
+      ]
+    },
+    {
+      "id": "corrective-actions",
+      "table": "correctiveActions",
+      "label": "Corrective Actions",
+      "description": "Corrective Actions workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "Root cause",
+        "CAPA",
+        "Verification"
+      ],
+      "prefix": "CA",
+      "seedValues": [
+        "Root cause",
+        "CAPA",
+        "Verification"
+      ]
+    },
+    {
+      "id": "regulatory",
+      "table": "regulatory",
+      "label": "Regulatory",
+      "description": "Regulatory workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "FDA/USDA",
+        "Reports",
+        "Deadlines"
+      ],
+      "prefix": "R",
+      "seedValues": [
+        "FDA/USDA",
+        "Reports",
+        "Deadlines"
+      ]
+    },
+    {
+      "id": "analytics",
+      "table": "analytics",
+      "label": "Safety Analytics",
+      "description": "Safety Analytics workspace for Food Safety Recall Management Suite.",
+      "subfeatures": [
+        "Trend",
+        "Supplier risk",
+        "Recall exposure"
+      ],
+      "prefix": "SA",
+      "seedValues": [
+        "Trend",
+        "Supplier risk",
+        "Recall exposure"
+      ]
+    }
+  ],
+  "port": 5615
+}
